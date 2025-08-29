@@ -1,3 +1,4 @@
+/*this creates a struct type for the player*/
  CREATE TYPE season_stats AS (
                          season Integer,
                          pts REAL,
@@ -5,6 +6,8 @@
                          reb REAL,
                          weight INTEGER
                        );
+
+
  CREATE TYPE scoring_class AS
      ENUM ('bad', 'average', 'good', 'star');
 

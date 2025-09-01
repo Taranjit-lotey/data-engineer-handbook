@@ -1,4 +1,3 @@
-/*this creates a struct type for the player*/
  CREATE TYPE season_stats AS (
                          season Integer,
                          pts REAL,

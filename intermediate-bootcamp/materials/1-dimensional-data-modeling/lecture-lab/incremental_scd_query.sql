@@ -1,4 +1,3 @@
-
 CREATE TYPE scd_type AS (
                     scoring_class scoring_class,
                     is_active boolean,
